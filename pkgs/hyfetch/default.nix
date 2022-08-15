@@ -35,6 +35,6 @@ python3Packages.buildPythonPackage rec {
     homepage = "https://github.com/hykilpikonna/HyFetch";
     license = licenses.mit;
     mainProgram = "hyfetch";
-    maintainers = with maintainers; [ yisuidenghua ];
+    # maintainers = with maintainers; [ yisuidenghua ];
   };
 }
