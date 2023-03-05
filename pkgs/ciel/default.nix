@@ -44,6 +44,6 @@ rustPlatform.buildRustPackage rec {
     homepage = "https://www.rustup.rs/";
     license = licenses.mit;
     platforms = platforms.unix;
-    maintainers = with maintainers; [ yisuidenghua ];
+
   };
 }
