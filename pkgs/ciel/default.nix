@@ -1,6 +1,6 @@
 { lib
 , fetchFromGitHub
-# , rustPlatform
+, pkgs
 , systemd
 , dbus
 , openssl
