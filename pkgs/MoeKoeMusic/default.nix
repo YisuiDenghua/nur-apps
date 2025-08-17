@@ -38,7 +38,7 @@ appimageTools.wrapType2 rec {
     description = "An open-source, concise, and aesthetically pleasing third-party client for KuGou";
     homepage = "https://github.com/iAJue/MoeKoeMusic";
     license = licenses.gpl3Only;
-    sourceProvenance = with lib.sourceTypes [ binaryNativeCode ];
+    sourceProvenance = with lib.sourceTypes; [ binaryNativeCode ];
     # maintainers = with maintainers; [ YisuiDenghua ]; 
     platforms = [ "x86_64-linux" ];
     mainProgram = "MoeKoeMusic";
