@@ -39,7 +39,7 @@ appimageTools.wrapType2 rec {
     homepage = "https://github.com/iAJue/MoeKoeMusic";
     license = licenses.gpl3Only;
     sourceProvenance = with sourceTypes; [ binaryNativeCode ];
-    maintainers = with maintainers; [ YisuiDenghua ]; 
+    # maintainers = with maintainers; [ YisuiDenghua ]; 
     platforms = [ "x86_64-linux" ];
     mainProgram = "MoeKoeMusic";
   };
