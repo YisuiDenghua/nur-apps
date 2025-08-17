@@ -14,9 +14,10 @@
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  hyfetch = pkgs.callPackage ./pkgs/hyfetch { };
+  # hyfetch = pkgs.callPackage ./pkgs/hyfetch { };
   
-  hmcl-bin = pkgs.callPackage ./pkgs/hmcl-bin { };
+  # hmcl-bin = pkgs.callPackage ./pkgs/hmcl-bin { };
+  MoeKoeMusic = pkgs.callPackage ./pkgs/MoeKoeMusic { };
   devtools-riscv64 = pkgs.callPackage ./pkgs/devtools-riscv64 { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
